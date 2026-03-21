@@ -13,3 +13,10 @@
     justify-content: center;
     flex-direction: column;
 }
+
+.name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
