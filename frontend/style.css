@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css2?family=Ropa+Sans:ital@0;1&display=swap);
 @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
 :root{
-    --cut-size: 40px;
+    --cor-tela: #D4FF15;
 }
 
 
@@ -50,7 +50,7 @@
 }
 
 
-.cards{
+.card-row{
     position: relative;
     border: 1px solid black;
     width: 1000px;
@@ -64,7 +64,7 @@
 .card{
     font-family: 'Pixelify Sans';
     border: 8.5px solid black;
-    background-color: #808000;
+    background-color: var(--cor-tela);
     width: 274px;
     height: 224px;
     display: flex;
@@ -74,3 +74,89 @@
     border-radius: 10px;
     box-shadow: 0px 0px 19px 6px rgba(0, 0, 0, 0.25);
 }
+
+.number{
+    font-size: 128px;
+}
+
+.description{
+    font-size: 36px;
+}
+
+/* ADD */
+.add{
+    border: 1px solid black;
+    width: 1144px;
+    height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+}
+
+.add input{
+    width: 907px;
+    height: 85px;
+    border: 4px solid #00312c;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    font-family: 'Ropa-Sans', sans-serif;
+    font-size: 28px;
+    color: #00312c;
+    padding: 20px;
+}
+
+.add button{
+    width: 236px;
+    height: 85px;
+    font-size: 32px;
+    background-color:#00312c;
+    color: white;
+    border: none;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    font-family: 'Ropa-Sans', sans-serif;
+}
+
+/* FILTROS */
+.filtros{
+    border: 4px solid black;
+    border-radius: 10px;
+    width: 850px;
+    height: 105px;
+    background-color: #DEDEDE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+}
+
+.filtros button{
+    border: transparent ;
+    background-color: transparent;
+    width: 225px;
+    height: 75px;
+    font-family: 'Ropa-Sans', sans-serif;
+}
+
+#total:hover{
+    background-color: #D4FF15;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0px 1px 3.8px 2px rgba(0, 0, 0, 0.25);
+}
+
+#ativa:hover{
+    background-color: #D4FF15;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0px 1px 3.8px 2px rgba(0, 0, 0, 0.25);
+}
+
+#completas:hover{
+    background-color: #D4FF15;
+    border-radius: 10px;
+    width: 235px;
+    box-shadow: 0px 1px 3.8px 2px rgba(0, 0, 0, 0.25);
+}
+
